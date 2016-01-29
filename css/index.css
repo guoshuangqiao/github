@@ -1,0 +1,265 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p{
+	margin:0;
+	padding:0;
+	/*使用ul和li时去掉圆点*/
+	list-style: none;
+}
+.section{
+	padding:80px 0;
+	border-bottom:1px solid #e5e5e5;
+}
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius:6px;
+	/*border: 1px solid white;*/
+}
+
+
+/*-------------------------------第一块开始------------------------------*/
+
+
+
+.header{
+	padding:15px;
+	/*border:1px solid #f02912;*/
+	background: #f5f5f5;
+}
+.header-c{
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+}
+.logo{
+	float:left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.search{
+	float: left;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #ccc;
+	border-radius: 5px;
+	width:360px;
+}
+.functionlist{
+	float:left;
+}
+/*后代选择器*/
+.functionlist li{
+	float:left;
+	padding:0 6px;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*群组选择器*/
+.signin,.signup{
+	font-size: 13px;
+	padding:3px 12px;
+	margin-top: -5px;
+	border: 1px solid #ccc;
+	float:right;
+	border-radius: 5px;
+}
+.signin{
+	background-image: linear-gradient(#fcfcfc, #eee);
+}
+.signup{
+	background-image: linear-gradient(#8add6d, #60b044);
+	margin-right: 10px;
+	color: white;
+}
+/*.signup{
+	font-size: 13px;
+	padding:6px 12px;
+	border: 1px solid #ccc;
+	float:right;
+}*/
+
+
+
+/*------------------------------第二块开始----------------------------------*/
+
+
+
+/*----------二三四块局中布局-------*/
+.container{
+	width:980px;
+	margin:0 auto;
+	/*border:2px solid black;*/
+}
+.sub-title{
+	font-size: 42px;
+	text-align:center;
+	font-weight: normal;
+}
+
+
+
+.sub-info{
+	font-size: 18px;
+	color: #767676;
+	text-align: center;
+	margin-top: 10px;
+}
+.gh-image{
+	width: 100%;
+	margin-top: 30px;
+}
+.enterprise{
+	background-image:linear-gradient(#202d5f,#614381); 
+}
+.enterprise h2{
+	color: #f5f5f5;
+}
+
+.btn-blue{
+	width:346px;
+	margin:12px auto;
+	background-image:linear-gradient(#45b3f3, #1d6ac8);
+}
+.btn-green{
+	width:287px;
+	margin:12px auto;
+	background-image:linear-gradient(#8add6d,#60b044);
+}
+.main{
+	background:#202020;
+}
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border:1px solid white;*/
+	float: right;
+}
+/*TODO:待优化（浮动的收缩问题）*/
+.main-c{
+	height:351px;
+}
+.main-intro{
+	width: 620px;
+	color:#fff;
+	/*border:1px solid red;*/
+	float:left;
+}
+.big-title{
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.main-intro p{
+	font-size:20px;
+	line-height: 1.5em;
+}
+.zhuce{
+	height:26px; 
+	border:1px solid white;
+	margin-bottom:12px;
+	color: #ccc;
+	background: #fff;
+	padding:10px;
+	font-size: 16px;
+	border-radius:5px;
+}
+.signup-form p{
+	font-size: 1px;
+	color: #767676;
+	font-weight: normal;
+}
+.btn-denglu{
+	text-align: center;
+	color: #f5f5f5;
+	width: 320px;
+	height: 36px;
+	background-color: #60b044;
+	padding-top:8px;
+	border-radius:5px;
+	margin:12px auto;
+}
+
+
+
+/*--------------------------------第四块开始--------------------------------*/
+
+
+
+.love{
+	height: 800px;
+}
+.love-reason{
+	width: 480px;
+	height: 300px;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: center;
+	/*margin-left:25px;*/
+	margin-top:40px;  
+}
+.love-reason p{
+	margin:15px auto;
+}
+.l-img{
+	border:1px solid #e5e5e5;
+	width:100px;
+	height: 100px;
+	margin:20px auto;
+	border-radius: 60px;
+	text-align: center;
+}
+#dui{
+	margin:20px auto;
+}
+
+
+
+/*------------------------------------第五块开始----------------------------*/
+
+
+
+h3{
+	font-size: 20px;
+}
+.end{
+	text-align:center;
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+
+
+/*----------------------------第六块开始-----------------------------*/
+
+
+#di{
+	padding:20px auto;
+	margin-top: 20px;
+}
+.out{
+	float:left;
+}
+.out li, .out2 li{
+	float: left;
+	font-size:12px;
+	color: #767676; 
+	margin-left:8px;
+}
+.out2 li{
+	float:right;
+}
+#mao{
+	margin-top:-20px;
+	margin-left: 150px;
+	float: left;
+}
